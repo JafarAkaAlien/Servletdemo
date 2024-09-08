@@ -3,14 +3,22 @@
   <display-name>ServletDemo</display-name>
   
   <servlet>
-  <servlet-name>aze</servlet-name>
+  <servlet-name>add</servlet-name>
   <servlet-class>com.jafar.AddServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
-  <servlet-name>aze</servlet-name>
+  <servlet-name>add</servlet-name>
   <url-pattern>/add</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  <servlet-name>square</servlet-name>
+  <servlet-class>com.jafar.SqServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>square</servlet-name>
+  <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
   
 </web-app>
